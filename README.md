@@ -43,3 +43,4 @@ https://www.techiedelight.com/remove-all-items-from-list-python/
 https://appdividend.com/2020/01/21/python-list-contains-how-to-check-if-item-exists-in-list/
 https://ocw.cs.pub.ro/courses/asc/laboratoare/02
 https://ocw.cs.pub.ro/courses/asc/laboratoare/01
+https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
