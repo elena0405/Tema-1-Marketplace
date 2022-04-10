@@ -27,8 +27,13 @@ import logging
 logging.basicConfig(filename='marketplace.log', level=logging.INFO)
 logging.Formatter.converter = gmtime()
 
+# Creez un file_handler, in care fiecare fisier are dimensiunea maxima egala cu
+# maxBytes. Numarul de fisiere este egal cu valoarea variabilei backupCount.
 file_handler = RotatingFileHandler('marketplace.log', maxBytes=10000, backupCount=10)
+# Creez un logger prin intermediul caruia voi afisa mesajele. in fisierul
+# marketplace.log.
 mkt_logger = logging.getLogger('logger')
+# Adaug acel file_handle la logger-ul creat.
 mkt_logger.addHandler(file_handler)
 
 
